@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: 65vh 30vh 80vh 25vh 50vh 15vh;
+    padding: 0mm;
+}
+
+.item1 {
+    
+}
+
+.first {
+    
+    color: #fff;
+    text-align: center;
+    
+}
+.image {
+    position: absolute;
+    background: #333 url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.first > .content h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.first > .content p {
+  
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+.first > .content .btn {
+
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+.first > .content .btn:hover {
+    color: #333;
+    background-color: goldenrod;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.second {
+    background-color: #EAEAEA;
+    text-align: center;
+    
+}
+.second .content h2{
+    display: block;
+    font-size: 2em;
+    padding-top: 15px ;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.text-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    height: 50%;
+}
+.text-content p {
+    text-align: center;
+    padding: 0 20%;
+}
+.third {
+    background-color: #333
+    
+}
+.third .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 3px; */
+    height: 100%;
+    column-gap: 3%;
+    padding: 3% 20%;
+    justify-items: center;
+    
+    
+    
+    
+}
+.third .content .item2 
+{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: 85%;
+  width:100%;
+}
+.third .content .item2 img{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 40px;
+}
+.third .content .item2 h2 {
+    display: block;
+    font-size: 2em;
+    padding-top: 15px ;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.third .content .item2 p {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.fourth {
+    background-color: rgb(255, 255, 255);
+    
+}
+.fourth .content h2 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    padding-top: 15px ;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.fourth .content p {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.fivth {
+    background-color: rgb(35, 10, 120);
+    
+}
+.fivth .content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+    color: rgb(255, 255, 255);
+   
+
+}
+.fivth .content h2 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    padding-top: 15px ;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.fivth .content p {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.fivth .content .left {
+    background-color: #2690D4;
+    padding: 30px;
+}
+.fivth .content .right {
+    background-color: #333;
+    padding: 30px;
+}
+.sixth {
+    background-color: rgb(167, 162, 31);
+    
+}
+.sixth .content {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: black;
+
+}
+span {
+    color: blue;
+}
+
